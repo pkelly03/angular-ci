@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9 (Mac)" package="undefined" timestamp="2013-06-17T13:56:50" id="0" hostname="MathBook Pro" tests="1" errors="0" failures="1" time="0.008">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.1 Safari/534.34"/>
+    </properties>
+    <testcase name="should attach a list of awesomeThings to the scope" time="0.008" classname="PhantomJS 1.9 (Mac).Controller: MainCtrl">
+      <failure type="">Expected 3 to be 5.
+</failure>
+    </testcase>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

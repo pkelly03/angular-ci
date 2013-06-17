@@ -1,0 +1,59 @@
+vimgrep body *.html
+<F2><F2><F2>
+vimgrep paul *.txt
+vimgrep paul **/*.txt
+vimgrep Paul/g **/*.txt
+vimgrep paul/j **/*.txt
+vimgrep /Paul/j **/*.txt
+vimgrep Paul **/*.txt
+e .bashrc
+e ~/.zshrc
+e run-mocha-tests.js
+e .my_aliases
+1!
+:q!
+Lw
+6
+e scripts/SpecRunner.js
+e test1
+e test2
+h
+e .
+e
+so ~/.vim/plugin/surround.vim
+helptags
+help NERD_tree.txt
+NERDTree
+nt
+help ctrlp.txt
+helptags ~/.vim/bundle/ctrlp.vim/doc
+CtrlP
+tabmove -1
+help ctrlp-commands
+qQ
+:help ctrlp-commands
+2w
+Q!
+grep Running
+grep Running *
+e ~/.vimrc
+24
+!
+%s/another/paul/g
+%s/paul/another/g
+%s/another/Another/g
+%s/Another/Paul/g
+q!±
+102
+:w
+:q
+"q
+'<,'>q
+e .my_functions
+wq
+q1
+q\
+q!
+w
+q
+
